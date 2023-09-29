@@ -1,0 +1,64 @@
+ans.1) A function is a block of code which only runs when it is called.you can pass data,known as parameters into a function. A function can return data as a result.
+       the four steps to defining a function in python:
+       1. use the keyword def to declear the function and follow this up with the function name.
+       2. Add parameter to the function: they should be within the parentheses od the function .End line with a colon (:). 
+       3. Add  statements that the function should excute.
+       4. End your function with a return statement if the function should output something. 
+
+ans.2) list.py
+       
+    def unique_list(mylist):
+    new_list = []
+    for numbers in mylist:
+        if numbers not in new_list:
+            new_list.append(numbers)
+    return new_list
+print(unique_list([1,1,1,2,2,2,3,3,3,4,4,4,5,5,5])) 
+ 
+Output:
+
+[Running] python -u "e:\python programming\list.py"
+[1, 2, 3, 4, 5]
+
+[Done] exited with code=0 in 0.558 seconds
+      
+
+ans.3) enennumber.py
+
+
+   def is_even_number(mylist):
+    evennumber =[]
+    for number in mylist:
+        if number %2 == 0:
+            evennumber.append(number)
+    return evennumber
+print(is_even_number([1,2,3,4,5,6,7,8,9,10]))
+        
+Output:
+
+[Running] python -u "e:\python programming\list.py"
+[1, 2, 3, 4, 5]
+
+[Done] exited with code=0 in 0.558 seconds
+
+
+ans.4) oddnumber.py
+
+def is_odd_number(mylist):
+    oddnumber =[]
+    for number in mylist:
+        if number %2 == 1:
+            oddnumber.append(number)
+    return oddnumber
+print(is_odd_number([1,2,3,4,5,6,7,8,9,10]))
+        
+
+Output:
+
+[Running] python -u "e:\python programming\list.py"
+[1, 2, 3, 4, 5]
+
+[Done] exited with code=0 in 0.558 seconds
+
+
+
